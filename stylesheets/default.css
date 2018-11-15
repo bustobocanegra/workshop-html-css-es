@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+body {
+  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 91.25%; /*  */
+  line-height: 1.5;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin-top: 0;
+}
+
+h1 { color: #6a00ff; font-size: 1.6em; }
+h2 { font-size: 1.3em; }
+h3 { font-size: 1.1em; }
+h4 { font-size: 1.05em; }
+h5 { font-size: 1.0em; }
+h6 { color: #666; font-size: 0.9em; }
+
+a {
+  border-radius: 3px;
+  color: #6a00ff;
+  padding: 0 10px;
+}
+
+a:hover {
+  background-color: #6a00ff;
+  color: #fff;
+  text-decoration: none;
+}
+
+code {
+  background: #f0f0f0;
+  color: #444;
+  font-size: 0.8em;
+}
+
+pre {
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  line-height: 1.4;
+  margin: 5px;
+  padding: 10px;
+}
+
+pre > code {
+  border: none;
+}
+
+blockquote {
+  border-left: 10px solid #ddd;
+  color: #999;
+  font-size: 0.8em;
+  padding-left: 20px;
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+}
+
+th, td {
+  padding: 10px 12px;
+  text-align: left;
+  border-bottom: 1px solid #aaa;
+}
+
+th:first-child,
+td:first-child {
+  padding-left: 0;
+}
+
+th:last-child,
+td:last-child {
+  padding-right: 0;
+}
+
+.remark-slide-scaler {
+  background-color: #fff;
+}
+
+.remark-slide {
+  align-items: center;
+  display: flex;
+  font-size: 24px;
+}
+
+.remark-slide-content {
+  background-color: #fff;
+  display: list-item;
+  font-size: inherit;
+  padding: 1em 4em 1em 4em;
+}
